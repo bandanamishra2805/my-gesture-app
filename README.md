@@ -45,6 +45,18 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Gemini API setup
+
+1. Create a file named `.env` in the project root with:
+
+```
+REACT_APP_GEMINI_API_KEY=your_api_key_here
+```
+
+2. Stop and restart `npm start` after changing `.env`.
+
+3. In the UI, enter a topic and click Generate to get a sentence from `gemini-2.5-flash-lite`.
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
